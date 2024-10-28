@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vet Clinics Nearby</title>
+    <link rel="stylesheet" href="nearClinics.css">
+    <!-- HERE Maps SDK -->
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <link rel="stylesheet" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+   <header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.jpg" alt="Aleef Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+        </ul>
+        <div class="nav-icons">
+            <a href="user profile.html"><img src="user.svg" alt="User Icon"></a>
+            <a href="#"><img src="language.png" alt="Globe Icon"></a>
+        </div>
+    </nav>
+</header>
+    <h3>Vet Clinics Near You</h3>
+    <div id="map"></div>
+    <br>
+    <br>
+    <br>
+    
+    <!-- Your custom JavaScript -->
+    <script src="findclinics.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-resources">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="X.png" alt="Twitter"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 Aleef. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
